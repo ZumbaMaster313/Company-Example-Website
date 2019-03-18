@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rapter Login</title>
+        <meta name="viewport" content="height=device-height, initial-scale=1.0">
+        <link rel = "stylesheet" type="text/css" href = "./css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/myScript.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+                <div class="welcomePageBtn">
+                        <a id="btnWelcome" href="./index.html">Home</a>
+                </div>
+                <div class="signupPageBtn">
+                    <a id="btnSignup" href="./signUp.html">Sign Up</a>
+                </div>
+            <div class="left">
+                    <div class="upper">
+                        <div class="middle">
+                                    <p id="compName">Rapter</p>
+                                    <i id=iconLocation>
+                                    <img src="./images/bdapter3.png" alt="Logo" width="75" height="75">
+                                </i>
+                        </div>
+                    </div>
+                    <div class="aroundThere"> 
+                        <p id="welcomeTxt">Welcome to the Rapter Remote Access Portal.</p>
+                    </div>
+            </div>
+            <form method="POST" action="./login.php">
+                <div class="centered">
+
+                        <div class="box">
+                            <div class="login">
+                                <p id="loginPrompt">LOGIN</p>
+                            </div>
+                            <div class="userBox">
+                                    <p>
+                                        <input id = "usernameTxt" placeholder = "Username" name="username"  autoComplete="off">
+                                    </p>
+                                    <i id="iconUser">
+                                        <img src="./images/username2.png" alt="userIcon" width="13" height="15">
+                                    </i> 
+                            </div>
+                            <div class="passwordBox">
+                                    <p>
+                                        <input id ="passwordTxt" placeholder="Password" type="password" name="password">
+                                    </p>
+                                    <i>
+                                        <img src="./images/passwordIcon2.png" alt="userIcon" width="13" height="15">
+                                    </i>
+                                    <div class="loginBtn">
+                                        <input class="turnIn" name="submit" value="Login" type="submit" style="border-radius: 3.5px; border: 1px solid rgb(205, 73, 82);"/>
+                                    </div>
+                            </div>
+                        
+                        </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
