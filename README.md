@@ -1,3 +1,3 @@
 # Company Example Website
 
-![Alt text](https://github.com/ZumbaMaster313/Rapter/images/rap.JPG "Rapter")
+![Alt text](https://github.com/ZumbaMaster313/Rapter/blob/master/images/rap.JPG "Rapter")
