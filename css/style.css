@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik');
+
+#usernameTxt
+{
+    resize: none;
+    outline: none;
+    padding: 5px;
+    background-color: #434C57;
+    color: #F6F3DE;
+    padding-left: 40px;
+    margin-left: 28px;
+    height: 18px;
+    width: 160px;
+    border: 1px solid #F6F3DE;
+    border-radius: 3.5px;
+}
+
+
+
+#passwordTxt
+{
+    resize: none;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #434C57;
+    color: #F6F3DE;
+    padding-left: 40px;
+    margin-left: 28px;
+    border: 1px solid #F6F3DE;
+    height: 28px;
+    width: 205px;
+    border-radius: 3.5px;
+}
+
+::placeholder{
+    color: #F6F3DE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+    -webkit-tap-highlight-color: rgba(225, 225, 225, 0);
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   
+   
+}
+
+#compName{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: 45px; 
+    font-style: normal; 
+    font-variant: normal; 
+    color: #F6F3DE;
+    font-weight: bold;
+    
+    
+} 
+
+.txt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.a{
+    position: absolute;
+    left: 115%;
+    top: 11%
+}
+
+#welcomeTxt{
+    color: #F6F3DE;
+    font-size: 40px;
+}
+    
+
+.lower{
+    float: left;
+    width: 400px; 
+    height:200px;
+    background-color: rgb(248, 248, 248);
+    
+
+}
+
+.wrapper{
+    background-color: #363E48;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.centered{
+    position: absolute;
+    top: 52%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.aroundThere{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    float: top;
+}
+
+.upper{
+    background-color: #D84E57;
+    float: left;
+    width: 100%; 
+    height:125px;
+}
+
+
+.welcomePageBtn{
+    float: right;
+    padding-top: 20px;
+}
+
+#btnWelcome{
+    background-color: #363E48;
+    border: none;
+    color: #F6F3DE;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: none;
+    margin-top: 15px;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+#btnWelcome:hover{
+    color: rgb(205, 73, 82);
+    background-color: transparent;
+}
+
+.signupPageBtn{
+    float: right;
+    padding-top: 20px;
+}
+
+#btnSignup{
+    background-color: #363E48;
+    border: none;
+    color: #F6F3DE;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: none;
+    margin-right: 50px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+#btnSignup:hover{
+    color: rgb(205, 73, 82);
+    background-color: transparent;
+}
+
+.middle{
+    position: absolute;
+    top: 63px;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    float: top;
+}
+
+.middle #iconLocation{
+    position: absolute;
+    right: 0;
+    right: 155px;
+    top: -10px;
+
+}
+
+.box{
+    background-color: #434C57;
+    width: 300px;
+    height: 290px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.boxA{
+    background-color: #434C57;
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#loginPrompt{
+    color: #F6F3DE;
+    font-size: 25px;
+}
+
+.passwordBox{
+    margin-top: 21px;
+    margin-left: 19px;
+    float: left;
+}
+
+.passwordBox i{
+    position: absolute;
+    left: 0;
+    top: 185px;
+    left: 90px;
+}
+
+.userBox{
+    margin-top: 39px;
+    margin-left: 19px;
+    float: left;
+    resize: none;
+}
+
+.userBox #iconUser{
+    position: absolute;
+    left: 0;
+    top: 136px;
+    left: 90px;
+}
+
+.login{
+    margin-top: 30px;
+}
+
+.origional{
+    float: left; 
+    width: 100%; 
+    height: 100%;
+}
+
+.left{ 
+    position: relative;
+    height: 100vh; 
+    width: 25%; 
+    background-color: rgb(205, 73, 82);
+    
+}
+
+.signup{
+    background-color: #434C57;
+    border: 0.25px solid rgb(205, 73, 82);
+    color: rgb(205, 73, 82);
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 121px;
+    resize: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.turnIn{
+    background-color: #434C57;
+    border: 0.25px solid rgb(205, 73, 82);
+    color: rgb(205, 73, 82);
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 121px;
+    resize: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.loginBtn{
+    float: left;
+}
+
+#passwordTxtComfirmed{
+    resize: none;
+    outline: none;
+    border: 1px solid #F6F3DE;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #434C57;
+    color: #F6F3DE;
+    padding-left: 40px;
+    margin-left: 28px;
+    margin-top: 20px;
+    height: 28px;
+    width: 205px;
+    border-radius: 3.5px;
+
+}
+
+#iconPassword{
+    position: absolute;
+    left: 0;
+    top: 233px;
+    left: 90px;
+}
+
+.signup:hover{
+    background-color: rgb(205, 73, 82);
+    color: #F6F3DE;
+    border: 1.5px solid rgb(205, 73, 82);
+}
+
+.turnIn:hover{
+    background-color: rgb(205, 73, 82);
+    color: #F6F3DE;
+    border: 1.5px solid rgb(205, 73, 82);
+}
+
+.signup{
+    transition: 0.3s;
+}
